@@ -1,0 +1,38 @@
+.search_container{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+
+.search{
+    background: white;
+    padding: 20px;
+    border: hidden;
+    font-size: 20px;
+    box-shadow: 0px 6px 12px #d2d2d7;
+
+}
+.search::placeholder{
+    /* color: red; */
+    opacity: 0.6;
+}
+
+.material-symbols-outlined {
+    /* font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48; */
+    font-size: 31px;
+    font-weight: 900;
+
+  }
+
+.submit{
+    padding: 20px;
+    background-color: #56f8e2;
+    border: none;
+    color: white;
+    box-shadow: -9px 0px 20px #9aefdd;
+}
